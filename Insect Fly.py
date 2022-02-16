@@ -3,8 +3,8 @@ import InsectClass as I
 wings =int(input('How many wings does the insect have:'))
 legs= int(input('How many legs does the insect have:'))
 
-mosquito = I.insect()
-housefly = I.insect()
+mosquito = I.Insect()
+housefly = I.Insect()
 
 
 mosquito.flight_length()

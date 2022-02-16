@@ -11,6 +11,7 @@ class Coin:
         self.sideup = 'Heads'
 
     # The toss method generates a random number
+    # mutator method 
     # in the range of 0 through 1. If the number
     # is 0, then sideup is set to 'Heads'.
     # Otherwise, sideup is set to 'Tails'.
@@ -23,6 +24,7 @@ class Coin:
 
     # The get_sideup method returns the value
     # referenced by sideup.
+    # accessor method 
 
     def get_sideup(self):
             return self.sideup

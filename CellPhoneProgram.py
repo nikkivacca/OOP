@@ -18,9 +18,9 @@ def main():
     print('The retail price is ', int(phone.get_retail_price()))
 
 
-    manufacturer = 'Sprint'
-    model = '13'
-    retail_price = '100'
+    manufacturer = 'Apple'
+    model = 'iPhone 13'
+    retail_price = '$899.00'
 
     
     phone.set_manufact(manufacturer)
@@ -28,7 +28,7 @@ def main():
     phone.set_retail_price(retail_price)
 
 
-  
+    print(phone)
 
 
 
